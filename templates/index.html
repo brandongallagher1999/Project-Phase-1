@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.0/css/bulma.min.css">
+        <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+        <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script> <!--Babel CDN-->
+        <script type="text/babel"src= "{{ url_for('static', path='react/ListItem.jsx') }}" async></script>
+        <script type="text/babel"src= "{{ url_for('static', path='react/ToDoList.jsx') }}" async></script>
+
+    </head>
+
+    <body>
+        <main>
+            <h1>
+                Brandon's To-Do List
+            </h1>
+
+           
+            <div id="to-do-list">
+
+            </div>
+        
+        </main>
+    </body>
+
+
+</html>
