@@ -18,7 +18,7 @@ CS 1073
 1. Download Docker for Desktop (https://www.docker.com/products/docker-desktop)
 
 ## Container
-1. Go into /src/ folder
+1. Go into root folder
 2. Open Shell or CMD
 ```sh
 docker build -t imageName .
